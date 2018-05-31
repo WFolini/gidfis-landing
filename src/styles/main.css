@@ -1,0 +1,45 @@
+.container {
+
+}
+
+#home {
+	background: #f4f5f6;
+	height: 100vh;
+	position: relative;
+	max-height: 100vh;
+	min-width: 100vw;
+}
+
+.thumbnail {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu {
+	display: flex;
+	flex: 1;
+	height: 70px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: green;
+	padding: 20px;
+}
+
+.logo {
+	color: white;
+	font-weight: 700;	
+}
+
+.menu-elements {
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-element-label {
+	color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+}
